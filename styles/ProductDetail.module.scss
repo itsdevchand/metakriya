@@ -1,0 +1,29 @@
+.pdImage {
+  position: relative;
+  height: 350px;
+
+  img {
+    object-fit: cover;
+    object-position: 0% 100%;
+  }
+}
+
+.pdName {
+  line-height: 30px;
+  -webkit-line-clamp: 2;
+}
+
+.pdMpTab {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.pdDescList {
+  ul {
+    list-style-type: disc !important;
+  }
+
+  li {
+    font-size: 17px;
+  }
+}

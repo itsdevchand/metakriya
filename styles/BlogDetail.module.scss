@@ -1,0 +1,33 @@
+.bp {
+  max-width: 768px;
+  margin: 0 auto;
+
+  //   blopage title
+  .bpTitle {
+    h2 {
+      -webkit-line-clamp: 2;
+    }
+  }
+  //   image section
+  .bpImgBox {
+    .bpImgWrapper {
+      position: relative;
+      height: 400px;
+
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+  // blopage info
+  //   .bpInfo {
+  //     font-family: 'Roboto';
+  //   }
+
+  .bpDesc {
+    // blopgae description
+    .bpDescList {
+      list-style-type: disc !important;
+    }
+  }
+}

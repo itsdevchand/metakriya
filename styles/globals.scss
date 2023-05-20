@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+// utility classes
+.d-flex-align {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex-justify {
+  display: flex;
+  justify-content: center;
+}
+
+.d-flex-align-justify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.al-bottom {
+  align-items: flex-end;
+}
+
+.js-end {
+  justify-content: flex-end;
+}
+
+.js-center {
+  justify-content: center;
+}
+
+.js-around {
+  justify-content: space-around;
+}
+
+.js-between {
+  justify-content: space-between;
+}
+
+.js-evenly {
+  justify-content: space-evenly;
+}
+
+.fx-clm {
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+// line clamp
+.ln-clamp {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+// light box shadow
+.bs-light {
+  box-shadow: 0 0 8px rgba(241, 243, 244, 0.5);
+}
+
+.bs-dark {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.br-light {
+  border: 1px solid #e8eaed !important;
+}
+
+.br-bt-light {
+  border-bottom: 1px solid #e8eaed !important;
+}
+.br-tp-light {
+  border-top: 1px solid #e8eaed !important;
+}
+
+// font wegiht
+.fw-5 {
+  font-weight: 500;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+svg {
+  position: relative;
+  top: -1px;
+}
+
+// position relative
+.ps-rl {
+  position: relative;
+}

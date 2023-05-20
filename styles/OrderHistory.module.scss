@@ -1,0 +1,56 @@
+.orderHistory {
+  max-width: 768px;
+  margin: 0 auto;
+
+  .orderItem {
+    position: relative;
+  }
+
+  .orderDate {
+    position: absolute;
+    background-color: crimson;
+    top: -10px;
+    left: 0;
+    z-index: 100;
+    padding: 6px 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 12px;
+
+    span {
+      color: #fff;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 2px;
+      left: -3px;
+      height: 0px;
+      width: 0px;
+      border-top: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 20px solid crimson;
+      z-index: 50;
+      transform: rotate(-45deg);
+    }
+  }
+
+  .orderImg {
+    position: relative;
+    height: 200px;
+
+    img {
+      object-fit: contain;
+    }
+  }
+  // order info section
+  .infoTitle {
+    -webkit-line-clamp: 1;
+  }
+
+  .infoDesc {
+    -webkit-line-clamp: 4;
+  }
+}

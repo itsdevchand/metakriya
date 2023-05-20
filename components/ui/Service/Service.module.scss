@@ -1,0 +1,16 @@
+.service {
+  .imageWrapper {
+    position: relative;
+    height: 350px;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .imageWrapper,
+  .serviceContent {
+    flex: 0 0 50%;
+  }
+}

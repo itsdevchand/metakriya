@@ -1,0 +1,114 @@
+.bgOverlay {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 500;
+}
+
+.crossIcon {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  z-index: 1500;
+  cursor: pointer;
+
+  span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+
+    &:hover {
+      color: crimson;
+    }
+  }
+}
+
+.profileHeader {
+  background-color: aquamarine;
+}
+
+.profileImg {
+  display: inline-block;
+  position: relative;
+  height: 80px;
+  width: 80px;
+
+  img {
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+// profile body
+
+// profile left
+.profileMenu {
+  flex: 2;
+}
+
+.menuItem {
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  svg {
+    font-size: 20px;
+  }
+
+  span {
+    font-size: 20px;
+  }
+}
+
+.menuItem.active {
+  background-color: #30d5c8;
+  color: #fff;
+}
+
+// body right section
+.profileBox {
+  flex: 7;
+}
+
+// order section
+
+.userTable {
+  svg {
+    font-size: 45px;
+  }
+
+  .progressTab {
+    padding: 1px 15px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #30d5c8;
+  }
+
+  .actionBox {
+    position: relative;
+
+    .actionModel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      overflow-y: auto;
+
+      & > * {
+        background-color: #fff;
+        width: 50%;
+        margin: 100px auto;
+      }
+    }
+  }
+}

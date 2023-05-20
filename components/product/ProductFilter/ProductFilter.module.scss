@@ -1,0 +1,18 @@
+.filterBox {
+  padding-left: 10px;
+  .filterBoxTab {
+    margin-left: -10px;
+    font-weight: 500;
+  }
+}
+
+.tabActive::after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  position: relative;
+  top: 19px;
+  border-radius: 25px;
+  background-color: #30d5c8;
+}

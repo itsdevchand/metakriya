@@ -1,0 +1,24 @@
+.cartTab {
+  //left section
+  .tabImg {
+    height: 200px;
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+  // tabTitle
+  .tabTitle {
+    line-height: 32px;
+    span {
+      -webkit-line-clamp: 2;
+    }
+  }
+
+  // tab desc
+  .tabDesc {
+    -webkit-line-clamp: 3;
+    line-height: 22px;
+  }
+}

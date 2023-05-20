@@ -1,0 +1,22 @@
+
+.pxNavbar {
+  padding: 20px 0;
+
+  // for mobile menu
+  .mobileMenu {
+    ul {
+      li {
+        a {
+          display: block;
+          text-decoration: none;
+        }
+
+        // link acvtive
+        .linkActive {
+          border-left: 3px solid #30d5c8;
+          color: #30d5c8;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.blogHeading {
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.ftBlog {
+  cursor: pointer;
+
+  &:hover img {
+    transform: scale(1.2);
+  }
+
+  .ftBlogImg {
+    height: 100%;
+    position: relative;
+
+    img {
+      object-fit: cover;
+      transition: all 300ms ease-out;
+    }
+  }
+}
+
+.ftBlogInfo {
+  .ftBlogTitle,
+  .ftBlogDesc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .ftBlogDesc {
+    -webkit-line-clamp: 4;
+  }
+}
+
+.ftBlogInfo {
+  .ftBlogTitle {
+    line-height: 30px;
+  }
+}

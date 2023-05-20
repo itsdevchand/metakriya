@@ -1,0 +1,52 @@
+.contactTop {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 100px 40px;
+
+  //   infot section
+  .infoTab svg {
+    font-size: 27px;
+  }
+
+  .contactBox {
+    background-color: #f8f9fc;
+  }
+}
+
+.contacBottom {
+  background-color: #f8f9fc;
+}
+
+.newsLetter {
+  max-width: 768px;
+  margin: 0 auto;
+
+  // width
+  .newsLetterTitle {
+    .newsLetterIcon {
+      background-color: #30d5c8;
+      padding: 30px;
+      border-radius: 50%;
+      svg {
+        font-size: 40px;
+        color: #fff;
+      }
+    }
+
+    .titleText {
+      font-weight: 500;
+      line-height: 25px;
+    }
+  }
+
+  .newsletterBox {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .newsLetter {
+    max-width: 576px;
+  }
+}

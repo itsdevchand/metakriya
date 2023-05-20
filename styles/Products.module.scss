@@ -1,0 +1,60 @@
+// product search section
+.productSearch {
+  .productForm {
+    position: relative;
+
+    // searchbox
+    .searchBtn {
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      transform: translate(0, -50%);
+
+      button {
+        display: block;
+        height: 20px;
+        svg {
+          height: 100%;
+          width: 100%;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}
+
+// sort section
+.productSort {
+  margin-right: 10px;
+
+  .sortText {
+    font-weight: 500;
+  }
+
+  .sortTab {
+    span {
+      font-weight: 500;
+    }
+  }
+
+  .sortActive {
+    span {
+      color: #30d5c8;
+    }
+    ::after {
+      position: relative;
+      top: 10px;
+      display: block;
+      content: '';
+      height: 3px;
+      background-color: #30d5c8;
+      border-radius: 25px;
+    }
+  }
+}
+
+//showing result section
+.resultText {
+  color: grey;
+  font-size: 14px;
+}

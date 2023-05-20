@@ -1,0 +1,104 @@
+// import function and variables
+// @import '../node_modules/bootstrap/scss/functions';
+// @import '../node_modules/bootstrap/scss/forms';
+// custom variables
+
+$teal: #30d5c8;
+$teal-dark: #00ead3;
+$purple: #6f42c1;
+$light-purple: #7c83fd;
+$pink: #d63384;
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+$turnish: #e7edf5;
+$light-white: #fffdff;
+
+$primary: $teal;
+$secondary: $purple;
+
+// body default
+$body-bg: $light-white;
+
+// container
+$pd-lg: 50px;
+$pd-sm: 20px;
+
+@mixin table {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media only screen and (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin make-container($padding-x: $pd-lg) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  @include make-container($pd-lg);
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    @include make-container($pd-sm);
+  }
+}
+
+$container-max-widths: (
+  xxl: 1500px,
+);
+
+// link color
+$link-color: $gray-900;
+
+// navbar section
+$navbar-padding-y: 0;
+
+.nav-link {
+  font-weight: 700;
+}
+
+// hero section
+.btn-primary {
+  color: $white;
+}
+
+// check button
+$form-check-input-width: 1em;
+$form-check-min-height: 2.5em;
+$form-check-padding-start: 0em;
+
+// card section
+$card-cap-bg: #fff;
+.card-header {
+  border-bottom: none !important;
+}
+
+// form section
+// $input-border-color: $gray-400;
+
+// $input-box-shadow: none;
+
+// @import '../node_modules/bootstrap/scss/variables';
+// @import '../node_modules/bootstrap/scss/mixins';
+
+// bootstrap import
+@import '../node_modules/bootstrap/scss/bootstrap';

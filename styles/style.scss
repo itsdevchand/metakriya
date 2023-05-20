@@ -1,0 +1,22 @@
+@use "custom";
+
+// @use 'components/animation';
+// @use 'components/buttons';
+// @use 'components/mixins';
+// @use 'components/typography';
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #374046;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: #3b7ddd;
+}

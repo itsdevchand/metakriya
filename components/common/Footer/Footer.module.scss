@@ -1,0 +1,20 @@
+.ftMain {
+  flex: 0 0 20%;
+}
+
+.ftInfo {
+  flex: 0 0 80%;
+
+  .ftInfoBox {
+    h4 {
+      font-weight: 600;
+      font-size: 20px;
+    }
+    ul {
+      li {
+        line-height: 34px;
+        font-weight: 500;
+      }
+    }
+  }
+}

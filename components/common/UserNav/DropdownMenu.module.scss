@@ -1,0 +1,13 @@
+.dropdown {
+  display: block !important;
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  li {
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

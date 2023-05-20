@@ -1,0 +1,25 @@
+.hero {
+  height: 600px;
+  position: relative;
+  background-image: url('../../../public/images/prasanna/hero.jpg');
+  background-size: cover;
+
+  .heroTextbox {
+    position: absolute;
+    max-width: 520px;
+    padding: 20px;
+    top: 30%;
+    left: 10%;
+    transform: translate(-10%, -30%);
+
+    span {
+      color: #30d5c8;
+    }
+
+    .formInput {
+      flex: 1 1 auto;
+    }
+  }
+
+  //   profile description
+}
